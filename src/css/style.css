@@ -20,10 +20,14 @@ a {
     font-size: 1.4rem;
 }
 
-a:hover,
+.links a:hover,
 a:focus {
     color: orange;
     text-decoration: underline;
+}
+
+.navbar .logo a:hover {
+    color: orange;
 }
 
 /*Header*/

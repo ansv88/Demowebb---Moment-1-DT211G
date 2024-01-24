@@ -33,7 +33,36 @@
 
     <main>
         <h1>Arbetsprocessen</h1>
-    <p></p>
+        <section class="subtitle">
+            <p>Jag använder Visual Studio Code (VSC) för utveckling och kör även npm-delarna i terminalen på VSC.</p>
+        </section>
+        <div class="process-wrapper">
+            <section class="development">
+                <h2>Utveckling</h2>
+                <ul>
+                    <li>Skapar mapp lokalt på datorn för projektet</li>
+                    <li>Använder terminalen i VSC för att installera parcel --save dev</li>
+                    <li>Ställer in src-mapp för index.html i package-json filen</li>
+                    <li>Skapar en .gitignore för node-modules, dist och parcel-cache</li>
+                    <li>Skapar ett GitRepo</li>
+                    <li>Skapar en sida på Render</li>
+                    <li>Kopplar ihop Render med GitHub för kommande automatisk uppdatering/publicering</li>
+                    <li>Skapar en developerbranch i Git-repot</li>
+                    <li>Lägger till Browserslist i package.json-filen för bakåtkompabilitet</li>
+                    <li>Kodar HTML, CSS och JavaScript</li>
+                    <li>Lägger till mapp med bilder</li>
+                    <li>Kör npm run build i terminalen vilket optimerar bildfilerna och transpilerar och minifierar övriga html, css och js-filer
+                    </li>
+                </ul>
+            </section>
+            <section class="publication">
+                <h2>Publicering</h2>
+                <ul>
+                    <li>Mergar developerbranch med mainbranch i Gitrepot</li>
+                    <li>GitHub och Render synkas och publicerar webbplatsen</li>
+                </ul>
+            </section>
+        </div>
     </main>
 
     <footer id="footer">

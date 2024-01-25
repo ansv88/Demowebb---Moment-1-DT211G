@@ -115,6 +115,11 @@ h2 {
     text-align: center;
 }
 
+.intro a {
+    color: blue;
+    text-decoration: underline;
+}
+
 .task-list {
     width: 90%;
     border: 1px solid;

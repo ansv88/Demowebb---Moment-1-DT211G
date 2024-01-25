@@ -96,6 +96,12 @@ h1 {
     font-size: 2.2rem;
 }
 
+h2 {
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 2rem;
+}
+
 /* Uppgiften */
 .intro p,
 .task-list p {

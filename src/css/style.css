@@ -97,7 +97,7 @@ h1 {
 }
 
 h2 {
-    margin-top: 5vh;
+    margin-top: 3vh;
     text-align: center;
     font-size: 2rem;
 }
@@ -177,7 +177,7 @@ h2 {
     width: 90%;
     border: 1px solid;
     border-radius: 10px;
-    padding: 20px 30px;
+    padding: 0 30px;
     margin: 20px auto;
     box-shadow: 12px 12px 5px -5px rgba(0, 0, 0, 0.75);
 }
@@ -186,7 +186,7 @@ h2 {
     width: 90%;
     border: 1px solid;
     border-radius: 10px;
-    padding: 20px 30px;
+    padding: 0 30px;
     margin: 0 auto 50px auto;
     box-shadow: 12px 12px 5px -5px rgba(0, 0, 0, 0.75);
 }
@@ -205,6 +205,31 @@ h2 {
 }
 
 /* Ramschema */
+form {
+    width: 50%;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid;
+    margin: 5vh  auto;
+  }
+
+  input {
+    all: unset;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+
+  button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
 
 table {
     table-layout: fixed;
@@ -219,16 +244,22 @@ table {
   thead th:nth-child(1) {
     width: 10%;
     text-align: left;
+    cursor: pointer;
+    text-decoration: underline;
   }
   
   thead th:nth-child(2) {
     width: 30%;
     text-align: left;
+    cursor: pointer;
+    text-decoration: underline;
   }
   
   thead th:nth-child(3) {
     width: 15%;
     text-align: left;
+    cursor: pointer;
+    text-decoration: underline;
   }
 
   th,

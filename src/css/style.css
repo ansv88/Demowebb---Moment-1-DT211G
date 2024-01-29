@@ -74,7 +74,7 @@ header {
 }
 
 .dropdown-menu.open {
-    height: 200px;
+    height: 300px;
 }
 
 .dropdown-menu li {
@@ -99,7 +99,7 @@ h1 {
 h2 {
     margin-top: 3vh;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.9rem;
 }
 
 /* Uppgiften */
@@ -206,7 +206,7 @@ h2 {
 
 /* Ramschema */
 form {
-    width: 50%;
+    width: 80%;
     height: 44px;
     border-radius: 5px;
     display: flex;
@@ -233,12 +233,15 @@ form {
 
 table {
     table-layout: fixed;
-    width: 100%;
+    width: 90%;
     max-width: 800px;
+    margin: 10vh auto;
     border-collapse: collapse;
     border: 1px solid lightgray;
-    margin: 10vh auto;
     box-shadow: 12px 12px 5px -5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    outline: 1px solid lightgray;
+    overflow: hidden;
   }
   
   thead th:nth-child(1) {
@@ -249,7 +252,7 @@ table {
   }
   
   thead th:nth-child(2) {
-    width: 30%;
+    width: 20%;
     text-align: left;
     cursor: pointer;
     text-decoration: underline;
@@ -351,4 +354,17 @@ footer {
         padding: 30px;
     }
 
+    /* Ramschema */
+    form {
+        width: 50%;
+    }
+
+    table {
+        width: 100%;
+      }
+      
+      thead th:nth-child(2) {
+        width: 30%;
+      }
+      
 }
